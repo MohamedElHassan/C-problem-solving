@@ -1,0 +1,23 @@
+Download Msys
+
+- Open  MSYS
+
+pacman -Syu
+pacman -Su
+
+- Open  MINGW64
+
+
+- Install Compiler
+pacman -Ss gcc
+pacman -S mingw-w64-x86_64-gcc
+
+- Install Debugger
+pacman -Ss gdb
+pacman -S mingw-w64-x86_64-gdb
+
+gcc --version
+g++ --version
+gdb --version
+
+Add C:\msys64\mingw64\bin to   ---->  Environment Variables
